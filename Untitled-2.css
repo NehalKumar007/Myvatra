@@ -1,0 +1,65 @@
+body {
+  margin: auto;
+}
+/*Header starts-=================================================================================*/
+.logo {
+  position: relative;
+  height: auto;
+  left: auto;
+  width: 110px;
+}
+ul {
+  float: right;
+}
+li {
+  display: inline-block;
+}
+li a {
+  list-style: none;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+header {
+  height: 60px;
+  /* border: 5px solid pink; */
+  background-color: white;
+}
+
+/*Flight Details ==================================================================================*/
+#flightdetails {
+  height: 425px;
+  /* border: 5px solid black; */
+  background-color: #3f80de;
+}
+select {
+  /* height: 40px;
+    width: 40%;
+    font-size: 20px; */
+}
+#whitebox {
+  height: 340px;
+  width: 400px;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: dotted;
+  background-color: white;
+  float: left;
+}
+
+#adbox {
+  height: 340px;
+  width: 650px;
+  border: dotted;
+  background-color: black;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+}
+
+#back {
+  width: 50%;
+  height: 200px;
+  text-align: center;
+}
